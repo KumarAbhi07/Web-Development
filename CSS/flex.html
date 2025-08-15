@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex in css</title>
+    <style>
+        .container{
+            background-color: beige;
+            border:5px solid black;
+            margin:2px;
+            padding:2px;
+            display:flex;
+            flex-direction: row;
+            /* height:1200px; */
+            /* flex-wrap: nowrap; */   
+            /* flex-wrap:wrap */
+            /* justify-content:center; */
+            /* justify-content:start; */
+            /* justify-content:end; */
+            /* justify-content:space-around;
+             */
+            /* justify-content: space-between ; */
+            /* align-items:center;
+            justify-content:center; */
+            /* align-items:stretch; */
+            /* justify-content:center;
+            align-items:center; */
+            /* align-content:start; */
+
+
+            /* align-self: center; */
+    
+        }
+        .box{
+            height:150px;
+            width:150px;
+            margin:1px;
+            padding:1px;
+            border :1px solid black
+            
+        }
+        #box1{
+            background-color: brown;
+            flex-shrink: 4;
+            
+            
+        }
+        #box2{
+            background-color:aqua;
+            
+        }
+        #box3{
+            background-color: blue;
+            order:-1;
+        
+        }
+        #box4{
+            background-color:orange;
+            flex-grow:5;
+            
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id ="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+    </div>
+    
+</body>
+</html>

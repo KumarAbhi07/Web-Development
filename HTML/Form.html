@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Registration Form</legend>
+            <label for="name">Name :</label>
+            <input type="text" id="name" value="Abhimanyu Kumar">
+            <br/>
+            <br/>
+            <label for="email">Email :</label>
+            <input type="text" id="email" placeholder="abhimanyukumar123@gmail.com"><br/>
+            <br/>
+            <label for="d.o.b">Date of Birth:</label>
+            <input type="date" id="d.o.b">
+            <br/>
+            <br/>
+            <label for="gender">Gender :</label>
+            <input type="radio" id="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female">
+            <label for="female">Female</label>
+            <br/><br/>
+            <label for="eng hin french ger">Language :</label>
+            <input type="checkbox"  id="eng">
+            <label for="eng">English</label>
+            <input type="checkbox" id="hin">
+            <label for="hin">Hindi</label>
+            <input type="checkbox" id="hin">
+            <label for="french">french</label>
+            <input type="checkbox" id="ger">
+            <label for="ger">German</label>
+            <br/>
+            <br/>
+            <label for="address">Address:</label><br/>
+            <textarea name="address" id="address" cols="50" rows="10"></textarea>
+            <br/><br/>
+            <label for="country:">Country</label>
+            <select name="Country " id="country">
+                <option value="india">India</option>
+                <option value="america">America</option>
+                <option value="japan">Japan</option>
+                <option value="South Africa">South Africa</option>
+                <option value="USA">USA</option>
+                <option value="China">China</option>
+            </select><br/>
+            <br/>
+            <label for="password">Password</label>
+            <input type="password" id="password"><br/>
+            <br/>
+            <label for="cpassword">Confirm Password</label>
+            <input type="password" id="cpassword"><br/>
+            <br/>
+            <label for="upload">File:</label>
+            <input type="file" id="upload"><br/><br/>
+            
+            <input type="button" value="Submit">
+            
+            <button>Back</button>
+        </fieldset>
+    </form>
+</body>
+</html>

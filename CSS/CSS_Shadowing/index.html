@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shadowing</title>
+    <style>
+        .container{
+            background-color:beige;
+            height:650px;
+            border:2px solid black;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+        }
+        .box{
+            background-color:aquamarine;
+            width:330px;
+            height:330px;
+            border: 1px solid brown;
+            margin:5px;
+            padding: 5px;
+            /* box-shadow:70px 15px brown; */
+            /* box-shadow: -10px 15px 5px brown; */
+            /* box-shadow:10px 15px 5px 100px rgb(23,4,6,.2); */
+            /* box-shadow:inset 10px 15px brown; */
+            box-shadow: 15px 5px  5px blue,20px 15px 5px green,24px 30px 5px yellowgreen;
+        }
+        h2{
+            text-shadow:12px 13px 2px white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="download (2).jpg"height='100px' width='100px'>
+            <h2>Welcome to Codehelp</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, debitis qui? Consequuntur, optio. Maxime, perspiciatis modi sit doloremque consequatur cumque? Quibusdam, praesentium quis maiores consequuntur tempore veritatis illo unde nobis!</p>
+
+        </div>
+    </div>
+    
+</body>
+</html>

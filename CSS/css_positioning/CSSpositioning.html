@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSPositioning</title>
+    <style>
+        div{
+            border:1px solid black;
+            padding:5px;
+            margin:10px;
+        }
+        .image2{
+            position:sticky;
+            top:100px;
+            right:100px;
+            
+        }
+        .image3{
+            position:fixed;
+            top:100px;
+            right:100px;
+        }
+        .container{
+            height:5000px;
+        }
+        .container1{
+            height:3000px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body> 
+    <div class="container">
+        <img src="download.jpg" alt="image1" width="300px" height="300px"
+         class="image1"/>
+        <img src="download (1).jpg" alt="image2" width="300px" height="300px" class="image2"/>
+        <img src="download.jpg" alt="image3" width="300px" height="300px" class="image3"/>
+        <img src="download (1).jpg" alt="image4" width="300px" height="300px" class="image4"/>
+    </div>
+    <div class="container1"></div>
+
+</body>
+</html>

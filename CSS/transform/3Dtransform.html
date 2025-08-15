@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 3D transform</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body{
+            height: 100%;
+            width:100%;
+        }
+        .container{
+            background-color: antiquewhite;
+            padding:5rem;
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 1rem;
+        }
+        .item{
+            padding:2rem;
+            height: 250px;
+            width:250px;
+            background-color: rgb(51, 51, 173);
+            border:2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="RotateX">RotateX</div>
+        <div class="item"id="RotateY">RotateY</div>
+        <div class="item" id="RotateZ">RotateZ</div>
+        <div class="item"id="TranslateX">TranslateX</div>
+        <div class="item"id="TranslateY">TranslateY</div>
+        <div class="item" id="TranslateZ">TranslateZ</div>
+        <div class="item" id="ScaleX">ScaleX</div>
+        <div class="item" id="ScaleY">ScaleY</div>
+        <div class="item" id="ScaleZ ">ScaleZ</div>
+    </div>
+    
+</body>
+</html>
