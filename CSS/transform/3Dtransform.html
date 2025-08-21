@@ -45,8 +45,19 @@
             transform:translateY(100px);
         }
         #TranslateZ:hover{
-            transform: translateZ(100px);
+            transform:perspective(300px)translateZ(100px);
         }
+        #ScaleX:hover{
+            transform:scaleX(2);
+        }
+        #ScaleY:hover{
+            transform:scaleY(2);
+        }
+        #ScaleZ:hover{
+            transform:perspective(300px) scaleZ(5) rotateY(30deg);
+        }
+
+
 
     </style>
 </head>
@@ -60,7 +71,7 @@
         <div class="item" id="TranslateZ">TranslateZ</div>
         <div class="item" id="ScaleX">ScaleX</div>
         <div class="item" id="ScaleY">ScaleY</div>
-        <div class="item" id="ScaleZ ">ScaleZ</div>
+        <div class="item" id="ScaleZ">ScaleZ</div>
     </div>
     
 </body>
