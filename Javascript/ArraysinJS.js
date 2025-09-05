@@ -16,7 +16,7 @@ console.log(brr[2]);
 // brr.splice(1,1,"abhi");
 // console.log(brr);
 
-let crr=brr.map((number)=>{
+    let crr=brr.map((number)=>{
     return number*number;
 })
 console.log(crr);
