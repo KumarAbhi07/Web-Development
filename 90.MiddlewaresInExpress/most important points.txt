@@ -1,0 +1,22 @@
+Routes -->
+Routes decide which code should run for which URL (link).
+Routes tell your program what to do when a user opens a page.
+
+Middleware -->
+
+Middleware checks things before your main code runs.
+Middleware is a helper function that runs before your main code when a request comes.
+
+User request → Middleware → Main program → Response
+
+✅ Simple Example (Real-life)
+
+Imagine you are entering a college:
+
+    You come to the gate
+
+    Security checks your ID ✅
+
+    Then you are allowed inside
+
+That security check is middleware.

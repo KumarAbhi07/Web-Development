@@ -1,13 +1,16 @@
 {
-  "name": "87.workingwithfiles",
+  "name": "90.middlewaresinexpress",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
-  "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.22.1"
+  }
 }

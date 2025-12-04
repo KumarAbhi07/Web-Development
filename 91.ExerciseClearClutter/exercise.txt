@@ -1,0 +1,16 @@
+you have to write a Node.js  program to clear cluster inside of a directory and organize the contents of that 
+directory into different folders 
+
+for example, these file become:
+1. name.jpg
+2. name.png
+3. this.pdf
+4. harry.zip
+5. Rohan.zip
+6. cat.jpg
+
+this:
+jpg/name.jpg , jpg/cat.jpg
+png/name.png
+pdf/this.pdf
+zip/harry.zip  zip/Rohan.zip

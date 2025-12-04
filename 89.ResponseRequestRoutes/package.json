@@ -1,13 +1,16 @@
 {
-  "name": "87.workingwithfiles",
+  "name": "89.responserequestroutes",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
